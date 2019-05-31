@@ -1,0 +1,115 @@
+/*
+* Cristina Herb
+* 
+* Final Project  
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+} /* This zeroes out the margin and padding in the webpage */
+
+body {
+    width: 100%; /* This changes the width of the section */
+    background-color: #EEF0FF; /* This changes the the background color of the webpage */
+    margin: 15px auto; /* This adds margin to the webpage */
+}
+
+h1, h2 {
+    text-align: center; /* This centers the text in the section */
+    padding: 10px; /* This adds padding to the headings */
+    color: navy; /* This changes the color of the text */
+    font-family: "Geneva", sans-serif, monospace; } /* This changes the type of font */
+
+header {
+    width: 60%; /* This changes the width of the section */
+    margin: 15px auto; /* This adds margin to the section */
+    border-top: 4px solid navy;
+    border-right: 10px solid navy;
+    border-bottom: 10px solid navy;
+    border-left: 4px solid navy;
+    /* This adds a navy border to the section */
+    background-color: #D4E1FF; /* This changes the background color of the section */
+    font-family: "Geneva", sans-serif, monospace; } /* This changes the type of font */
+
+#sidebarA {
+    width: 24%; /* This changes the width of the section */
+    float: left; /* This floats the section to the left */
+    text-align: center; /* This centers the text in the section */
+    padding-left: .5em; /* This adds padding to the section */
+    padding-right: .5em; /* This adds padding to the section */ }
+
+main {
+    width: 48%; /* This changes the width of the section */
+    float: left; /* This floats the section to the left */
+    padding-bottom: 1em; /* This adds padding to the section */
+    font-size: 11pt; } /* This changes the font size */
+
+#sidebarB {
+    width: 24%; /* This changes the width of the section */
+    float: right; /* This floats the section to the right */
+    text-align: center; /* This centers the text in the section */
+    padding-left: .75em; /* This adds padding to the section */
+    padding-right: .5em; /* This adds padding to the section */ }
+
+footer {
+    clear: both; 
+    border-top: 4px solid navy; /* This adds a top border to the section */
+    padding-left: .75em; /* This adds padding to the headings */ }
+
+header, footer, {
+    padding-top: 1em; /* This adds padding to the headings */
+    padding-right: 1em; /* This adds padding to the headings */
+    padding-bottom: 1em; /* This adds padding to the headings */
+    padding-left: 1em; /* This adds padding to the headings */ }
+
+img { 
+    border-top: 3px solid lightslategray;
+    border-right: 3px solid lightslategray;
+    border-bottom: 3px solid lightslategray;
+    border-left: 3px solid lightslategray; 
+    /* This adds a border to the images */ }
+
+h3, h4 { 
+    padding-top: .75em; /* This adds padding to the headings */
+    padding-bottom: .25em; /* This adds padding to the headings */
+    font-family: monospace, serif, sans-serif; /* This changes the type of font */
+    color: #414141; }
+
+p, li {
+    font-family: monospace, serif, sans-serif; /* This changes the type of font */
+    font-size: 14px; /* This changes the font size */
+    color: #414141; } /* This changes the color of the text */
+
+#pic1 { 
+    height: 250px; /* This changes the height of the image */
+    float: left; /* This floats the picture to the left */
+    margin-right: .75em; /* This adds margins to the picture*/
+    margin-bottom: .5em; /* This adds margins to the picture*/ }
+
+#pic2 { 
+    width: 250px; /* This changes the width of the image */
+    float: right; /* This floats the picture to the right */
+    margin-left: .75em; /* This adds margins to the picture*/ }
+
+#pic3, #pic4 {
+    margin-top: .5em; /* This adds margins to the picture*/
+    height: 150px; /* This changes the height of the image */ }
+
+#pic3 {
+    float: left; /* This floats the picture to the left */
+    margin-left: 5em; /* This adds margins to the picture*/ }
+
+#footer { 
+    float: right; /* This floats the text to the right */
+    color: red; /* This changes the color of the text */ }
+
+#sources {
+    text-align: left;} /* This places the sources to the left of the webpage */
+
+.heading {
+    text-decoration: underline;} /* This underlines the headings */
+
+a:hover, a:focus {color: #00C1FF;} /* This changes the link color to fushia when you scroll over it */
